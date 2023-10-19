@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ポートフォリオ">
+    <title>英会話スクール</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="l-header">
+        <h1 class="l-header__logo"><a href="#"><img src="img/logo-r.svg" class="js-logo" alt="ヘッダーロゴ"></a></h1>
+        <!-- ハンバーガーメニュー -->
+        <button class="p-hamburger js-hamburger">
+            <span>Menuボタン</span>
+        </button>
+        <div class="p-menu js-menu">
+            <h1 class="l-header__logo"><a href="#"><img src="img/logo-w.svg" alt="ヘッダーロゴ(白色)"></a></h1>
+            <ul class="p-menu__list">
+                <li class="p-menu__item"><a href="#">BBBが選ばれる理由</a></li>
+                <li class="p-menu__item"><a href="#">受講生の声</a></li>
+                <li class="p-menu__item"><a href="#">スクールの概要</a></li>
+            </ul>
+            <div class="p-menu__link">
+                <a href="#">無料体験に申し込む</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="l-main">        
+        <div class="p-home-visual">
+            <div class="p-home-visual__container">
+                <img class="p-home-visual__img" src="img/01.jpg" alt="メイン画像1枚目">
+                <img class="p-home-visual__img" src="img/02.jpg" alt="メイン画像2枚目">
+                <img class="p-home-visual__img" src="img/03.jpg" alt="メイン画像3枚目">
+            </div>
+            <div class="p-home-visual__text">
+                <p>話して学ぼう！<br>BBB英会話スクール</p>
+                <div class="p-home-visual__btn">
+                    <a href="#">無料体験はこちら</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="p-home-block p-reason" id="reason">
+            <div class="c-inner">
+                <h2 class="p-reason__title c-title">BBBが選ばれる理由</h2>
+            </div>
+            <ul class="p-reason__list">
+                <li class="p-reason__item p-reason__item-left p-fadeup--left js-fadeUp">
+                    <img class="p-reason__img" src="img/icon-pc.png" alt="パソコン">
+                    <div class="p-reason__text">
+                        <h4>オンライン対応</h4>
+                        <p>24時間いつでも受講できる！</p>
+                    </div>
+                </li>
+                <li class="p-reason__item p-reason__item-right p-fadeup--right js-fadeUp">
+                    <img class="p-reason__img" src="img/icon-teacher.png" alt="ティーチャー">
+                    <div class="p-reason__text">
+                        <h4>講師はネイティブ</h4>
+                        <p>お気に入りの講師が自由に選べる！</p>
+                    </div>
+                </li>
+            </ul>            
+        </section>
+
+        <section class="p-home-block p-voice" id="voice">
+            <div class="c-inner">
+                <h2 class="p-voice__title c-title">受講生の声</h2>
+                <figure class="p-voice__content p-voice__content--reverse p-zoomin js-zoomin">
+                    <figcaption>
+                        <div class="c-balloon c-balloon--left">
+                            <p class="p-voice__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                    </figcaption>
+                    <div class="p-voice__person">
+                        <img class="p-voice__img" src="img/icon-student1.png" alt="生徒1">                    
+                        <p class="p-voice__name">○○○さん<br>大学生</p>
+                    </div>
+                </figure>
+                <figure class="p-voice__content p-zoomin js-zoomin">
+                    <figcaption>
+                        <div class="c-balloon c-balloon--right">
+                            <p class="p-voice__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                    </figcaption>                    
+                    <div class="p-voice__person">
+                        <img class="p-voice__img" src="img/icon-student2.png" alt="生徒2">
+                        <p class="p-voice__name">○○○さん<br>会社員</p>
+                    </div>
+                </figure>
+                <figure class="p-voice__content  p-voice__content--reverse p-zoomin js-zoomin">
+                    <figcaption>
+                        <div class="c-balloon c-balloon--left">
+                            <p class="p-voice__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                    </figcaption>
+                    <div class="p-voice__person">
+                        <img class="p-voice__img" src="img/icon-student3.png" alt="生徒3">
+                        <p class="p-voice__name">○○○さん<br>自営業</p>
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <section class="p-home-block p-about" id="about">
+            <div class="c-inner">
+                <h2 class="p-about__title c-title">スクールの概要</h2>
+                <ul class="p-about__list">
+                    <li class="p-about__item">
+                        <h4 class="p-about__heading-ja">レッスン内容</h4>
+                        <span class="p-about__heading-en">LESSON</span>
+                        <p class="p-about__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </li>
+                    <li class="p-about__item">
+                        <h4 class="p-about__heading-ja">料金プラン</h4>
+                        <span class="p-about__heading-en">PRICE</span>
+                        <p class="p-about__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </li>
+                    <li class="p-about__item">
+                        <h4 class="p-about__heading-ja">講師のご紹介</h4>
+                        <span class="p-about__heading-en">TEACHER</span>
+                        <p class="p-about__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </li>
+                    <li class="p-about__item">
+                        <h4 class="p-about__heading-ja">BBBのQ&A</h4>
+                        <span class="p-about__heading-en">Q&A</span>
+                        <p class="p-about__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="p-home-block p-contact" id="contact">
+            <div class="c-inner">
+                <h3>まずは無料で、BBBの英会話を試してみませんか？</h3>
+                <p>今なら初月のレッスンを特別価格で受講できる割引クーポンをプレゼント！</p>
+                <div class="p-contact__btn">
+                    <a href="#">無料体験に申し込む</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="l-footer">
+        <div class="c-inner">
+            <ul class="l-footer__menu">
+                <li class="l-footer__list"><a href="#">コース一覧</a>
+                    <ul class="l-footer__item">
+                        <li><a href="">スタンダードプラン</a></li>
+                        <li><a href="">プレミアムプラン</a></li>
+                        <li><a href="">短期集中プラン</a></li>
+                        <li><a href="">日常英会話コース</a></li>
+                        <li><a href="">ビジネス英会話コース</a></li>
+                    </ul>
+                </li>
+                <li class="l-footer__list"><a href="#">講師紹介</a>
+                    <ul class="l-footer__item">
+                        <li><a href="">講師について</a></li>
+                        <li><a href="">講師一覧</a></li>
+                        <li><a href="">講師を探す</a></li>
+                    </ul>
+                </li>
+                <li class="l-footer__list"><a href="#">会社情報</a>
+                    <ul class="l-footer__item">
+                        <li><a href="">会社概要</a></li>
+                        <li><a href="">採用情報</a></li>
+                    </ul>
+                </li>
+                <li class="l-footer__list"><a href="#">BBBについて</a>
+                    <ul class="l-footer__item">
+                        <li><a href="">よくあるご質問</a></li>
+                        <li><a href="">ご利用規約</a></li>
+                        <li><a href="">プライバシーポリシー</a></li>
+                        <li><a href="">お問い合わせ</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="l-footer__copyright">
+                <small>&copy; BBB English School</small>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/hamburger.js"></script>
+    <!-- jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- jquery.inview.min.jsプラグイン -->
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
