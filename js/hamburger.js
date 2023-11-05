@@ -9,3 +9,11 @@ menuIcon.addEventListener('click', () => {
 });
 
 
+
+window.addEventListener('DOMContentLoaded', function(){
+  /** ページ内リンクをクリックしたらナビメニューが閉じる処理 */
+    $('.drawer__nav__link').click(function () {
+    $('.js-hamburger').removeClass('is-open');
+    $('.js-menu').removeClass('is-open');
+  });
+});

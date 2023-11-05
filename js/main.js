@@ -12,3 +12,10 @@ $(".js-zoomin").on("inview", function () {
     $(this).addClass("is-animated");
 });
 });
+
+// 下からふわっと表示
+$(function () {
+  $(".js-scrollup").on("inview", function () {
+      $(this).addClass("is-active");
+  });
+  });
